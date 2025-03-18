@@ -26,7 +26,7 @@ namespace encryption_algorithms
                 // Ruta del archivo (ajusta esto a tu ruta específica)
                 string filePath = Path.Combine(
                     Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                    "texto prueba AES.txt");
+                    "PauloCoelho-ElAlquimista.txt");
 
                 // Leer el contenido del archivo
                 string plainText = File.ReadAllText(filePath);
